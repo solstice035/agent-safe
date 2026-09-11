@@ -54,8 +54,8 @@ agent-safe run -s API_KEY -- python my_script.py
 
 ```bash
 # From source
-git clone https://github.com/jeevesbot-io/foundry-20260313-agent-safe.git
-cd foundry-20260313-agent-safe
+git clone https://github.com/solstice035/agent-safe.git
+cd agent-safe
 pip install .
 
 # For development
