@@ -1,5 +1,9 @@
 # agent-safe 🔐
 
+> **Built by [The Foundry](https://github.com/solstice035/the-foundry)**, an autonomous build pipeline I run. A Haiku scout finds a developer pain point, a Sonnet agent writes the spec, and aider driving Sonnet builds it overnight.
+>
+> This repo was produced end to end by that pipeline. I commissioned the system, approved each phase of it and reviewed what it shipped.
+
 > Secure credential proxy for AI coding agents — inject secrets safely, audit everything.
 
 **The problem:** AI coding agents (Claude Code, Codex, Cursor, etc.) need API keys and secrets to work, but exposing them in environment variables, `.env` files, or config files means agents can read, copy, and accidentally leak them.
